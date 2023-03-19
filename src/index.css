@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "sarabun";
+  src: local("sarabun"), url("./fonts/Sarabun-Regular.ttf") format("truetype");
+  font-weight: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  margin: 0 5px !important;
+}
+
+input[type="text"] {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  border-style: dotted;
+  margin: 0 5px;
+}
+
+input[type="text"]:focus {
+  border-color: blue;
+  outline: 0;
 }

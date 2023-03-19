@@ -1,0 +1,96 @@
+.form-container {
+  padding: 2rem 2rem;
+  font-family: "sarabun";
+  line-height: 2;
+  max-width: 995px;
+  margin: auto;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.header img {
+  width: 80px;
+  position: absolute;
+  left: 0;
+}
+
+.tab {
+  width: 60px;
+  display: inline-block;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.sign-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 0;
+  line-height: 1;
+}
+
+.section {
+  border-top: 3px solid black;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 50%;
+}
+
+.grid-wrap {
+  display: grid;
+  grid-template-columns: 8% 65% 27%;
+  margin-left: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+.sub {
+  flex-direction: column;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.btn-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin: auto;
+}
+
+.disabled {
+  opacity: 0.5;
+}
